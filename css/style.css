@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.desconto{
+    
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    height: 38px;
+    font-family: roboto;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 18px;
+    line-height: 17.58px;
+    background-color:#1CD1B0;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    background: #00669F;
+    padding-left: 25px;
+    height: 90px;
+    font-size: 40px;
+}
+
+section{
+    display: flex;
+
+
+}
+
+.card{
+    width: 374px;
+    height: 400px;
+    border: 1px solid red;
+    display: flex;
+    
+}
+
+.batman{
+    background-image: url('../img/imgFundo.png');
+    background-repeat: no-repeat;
+    
+}
+
+.coracao{
+    position: relative;
+    top: 15px;
+    left: 20px;
+}
+
+.imagemDoCentro img {
+    border-radius: 50%;
+}
+
+.conteudoDoCarde{
+    margin-top: 110px;
+}
